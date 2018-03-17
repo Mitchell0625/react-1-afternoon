@@ -652,7 +652,7 @@ export default class EvenAndOdd extends Component {
       }
     }
     
-    this.setState({ evenArray: evens, oddArray: odds });
+    return this.setState({ evenArray: evens, oddArray: odds });
   }
 
   render() {
